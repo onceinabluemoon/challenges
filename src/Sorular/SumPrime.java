@@ -5,10 +5,7 @@ package Sorular;
 
 import java.util.Scanner;
 
-/**
- *
- * @author suraes
- */
+
 public class SumPrime 
 {
     
@@ -17,22 +14,9 @@ public class SumPrime
         Scanner oku = new Scanner(System.in);
         System.out.println("Sayı : ");
         int n = oku.nextInt();
-        int sum = 0;
+        //int sum = 0;
         
         System.out.println("sum : "+getSumPrime(n));
-        
-        
-//        int sayi; 
-//            for(int i=2; i<=n; i++)
-//            { 
-//                sayi=0; 
-//                for(int j=2; j<=i/2; j++)
-//                { 
-//                    if(i%j==0) sayi++; 
-//                } 
-//                if(sayi==0) System.out.println(+i); 
-//            }
-    
     }
     
     public static int getSumPrime(int m)
