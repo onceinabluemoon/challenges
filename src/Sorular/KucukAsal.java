@@ -1,5 +1,5 @@
-﻿/*
-bir büyük asal sayı ve bu asal sayı içindeki en büyük asal sayıyı bulmam isteniliyordu.
+/*
+verilen int sayıdan küçük olan ilk asal sayı
  */
 package Sorular;
 
@@ -28,15 +28,15 @@ public class KucukAsal
             
             for (int j =2 ; j <m; j++) 
             {
-                if (m%j==0)         {isPrime=false;  break;}
-                
+                if (m%j==0) {isPrime=false;  break;}    
             }
-            if (isPrime) {
+            
+            if (isPrime) 
+            {
                 System.out.println("ilk asal : "+m); break;
             }
             else m--;
-        }
-       
+        }       
         
         return m;
         
